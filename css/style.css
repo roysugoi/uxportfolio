@@ -61,7 +61,7 @@ SCROLLBAR
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f3f4; 
+  background: #f8f8f8; 
 }
 
 ::-webkit-scrollbar-thumb {
@@ -69,7 +69,7 @@ SCROLLBAR
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #383838; 
 }
 
 
@@ -81,33 +81,35 @@ TEXT
 
 p {
     font-family: 'Karla', sans-serif;
-    color: #595959;
+    color: #383838;
     font-size: 16px;
 }
 
 a {
     font-family: 'Karla', sans-serif;
-    color: #595959;
-    font-size: 16px;
+    color: #383838;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 h1 {
     font-family: 'Karla', sans-serif;
-    color: #222222;
+    color: #383838;
     font-size: 50px;
     font-weight: 200;
-} 
+}
 
 h2 {
     font-family: 'Karla', sans-serif;
-    color: #595959;
+    color: #383838;
     font-size: 20px;
     font-weight: 400;
 }
 
 h3 {
     font-family: 'Karla', sans-serif;
-    color: #595959;
+    color: #383838;
     font-size: 16px;
     font-weight: 100;
 }
@@ -159,7 +161,8 @@ h4 {
 .navitem:hover {
     transition: 0.5s;
     opacity: 1;
-    background-color: #d8d8d8;
+    background-color: #8d6e97;
+    color: #f8f8f8;
 }
 
 
@@ -170,7 +173,7 @@ h4 {
 
 
 .ribbon {
-    background: linear-gradient(45deg, #8d6e97, #6787b7);
+    background: #8d6e97;
     height: 10px;
     width: 10rem;
 }
@@ -179,46 +182,6 @@ h4 {
     margin-top: 3rem;
 }
 
-.button-a {
-    border-radius: 10px;
-    width: 300px;
-    height: 30px;
-    background: linear-gradient(45deg, #8d6e97, #6787b7);
-    line-height: 25px;
-    padding: 10px;
-    cursor: pointer;
+.cont-text {
     float: left;
-    text-align: center;
-    margin-left: 0rem;
-    margin-right: 2rem;
-    font-family: 'Karla', sans-serif;
-    color: #f8f8f8;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.button-a:hover {
-    transition: 0.5s;
-    opacity: 0.5;
-}
-
-.button-b {
-    border-radius: 10px;
-    border: 2px solid #8d6e97;
-    width: 296px;
-    height: 26px;
-    line-height: 25px;
-    padding: 10px;
-    cursor: pointer;
-    float: left;
-    text-align: center;
-    font-family: 'Karla', sans-serif;
-    color: #8d6e97;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.button-b:hover {
-    transition: 0.5s;
-    opacity: 0.5;
 }
