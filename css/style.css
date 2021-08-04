@@ -46,7 +46,6 @@ head {
 body {
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-    padding: 5rem;
 }
 
 /*===================================
@@ -131,13 +130,16 @@ h4 {
     left: 0px;
     top: 0px;
     padding: 2rem;
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 9999;
 }
 
 .logo {
     float: left;
     max-height: 50px;
     line-height: 50px;
-    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .logoitem {
@@ -161,19 +163,20 @@ h4 {
 .navitem:hover {
     transition: 0.5s;
     opacity: 1;
-    background-color: #E0A526;
+    background-color: #0f3351;
     color: #f8f8f8;
 }
 
 
 .mainphrase {
-    padding: 2rem;
+    padding: 5rem;
+    margin-left: 2rem;
     max-width: 33%;
 }
 
 
 .ribbon {
-    background: #E0A526;
+    background: #0f3351;
     height: 10px;
     width: 10rem;
 }
@@ -188,7 +191,7 @@ h4 {
 
 .gallery {
     width: 100%;
-    padding: 2rem;
+    padding: 0px;
     margin: 0px;
 
 }
@@ -196,7 +199,7 @@ h4 {
 .project {
     width: 500px;
     height: 500px;
-    background-color: #E0A526;
+    background-color: #0f3351;
     cursor: pointer;
 }
 
@@ -209,12 +212,17 @@ h4 {
     opacity: 0.5;
     filter: saturate(0);
     font-family: 'Karla', sans-serif;
-    color: #E0A526;
+    color: #0f3351;
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 4rem;
+    right: 4rem;
     font-size: 100px;
     cursor: pointer;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
 
 .go-up:hover {
