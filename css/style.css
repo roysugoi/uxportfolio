@@ -161,19 +161,19 @@ h4 {
 .navitem:hover {
     transition: 0.5s;
     opacity: 1;
-    background-color: #8d6e97;
+    background-color: #E0A526;
     color: #f8f8f8;
 }
 
 
 .mainphrase {
     padding: 2rem;
-    max-width: 40vw;
+    max-width: 33%;
 }
 
 
 .ribbon {
-    background: #8d6e97;
+    background: #E0A526;
     height: 10px;
     width: 10rem;
 }
@@ -184,4 +184,22 @@ h4 {
 
 .cont-text {
     float: left;
+}
+
+.gallery {
+    width: 100%;
+    padding: 2rem;
+    margin: 0px;
+}
+
+.project {
+    width: 500px;
+    height: 500px;
+    background-color: #E0A526;
+    cursor: pointer;
+}
+
+.project:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
 }
