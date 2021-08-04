@@ -66,11 +66,11 @@ SCROLLBAR
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #0f3351;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #383838; 
+  background: #0f3351; 
 }
 
 
