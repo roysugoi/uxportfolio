@@ -190,6 +190,7 @@ h4 {
     width: 100%;
     padding: 2rem;
     margin: 0px;
+
 }
 
 .project {
@@ -201,5 +202,22 @@ h4 {
 
 .project:hover {
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.go-up {
+    opacity: 0.5;
+    filter: saturate(0);
+    font-family: 'Karla', sans-serif;
+    color: #E0A526;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.go-up:hover {
+    opacity: 1;
+    filter: saturate(1);
 }
