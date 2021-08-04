@@ -183,6 +183,7 @@ h4 {
     background: #0f3351;
     height: 10px;
     width: 10rem;
+    border-radius: 4px;
 }
 
 .buttonrow {
