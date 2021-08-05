@@ -256,6 +256,13 @@ h4 {
     float: left;
 }
 
+@media screen and (max-width: 2000px){
+    .abouttext {
+        width: 50%;
+        float: left;
+    }
+}
+
 @media screen and (max-width: 1600px){
 
     h2 {
