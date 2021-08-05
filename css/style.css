@@ -157,7 +157,7 @@ h4 {
     cursor: pointer;
     margin: 2rem;
     width: 200px;
-    opacity: 0.5;
+    opacity: 0.85;
 }
 
 .btn {
@@ -277,6 +277,15 @@ h4 {
         cursor: pointer;
     }
 
+    .navbar-container {
+        padding: 0px;
+        float: none;
+        padding-top: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+
     .mainphrase {
         padding: 2rem;
         margin-left: 2rem;
@@ -298,5 +307,9 @@ h4 {
         padding: 5rem;
         text-align: justify;
         text-justify: inter-word;
+    }
+
+    .nav-logo {
+        display: none;
     }
 }
