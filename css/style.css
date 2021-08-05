@@ -237,14 +237,12 @@ h4 {
 }
 
 .aboutme {
-    max-width: 100%;
+    width: 100%;
     padding: 0px;
-    margin-bottom: 5rem;
 }
 
 .aboutmetitle {
-    padding: 5rem;
-    margin-left: 2rem;
+    padding: 0rem;
 }
 
 .aboutphoto1 {
@@ -261,6 +259,7 @@ h4 {
 .abouttext {
     width: 25%;
     float: left;
+    padding: 3rem;
 }
 
 @media screen and (max-width: 2000px){
@@ -271,6 +270,7 @@ h4 {
     .abouttext {
         width: 50%;
         float: left;
+        padding: 0rem;
     }
 }
 
@@ -278,7 +278,7 @@ h4 {
     
     .aboutmetitle {
         padding: 0rem;
-        margin-left: 2rem;
+        padding-left: 2rem;
         padding-right: 5rem;
     }
 
