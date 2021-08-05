@@ -194,15 +194,16 @@ h4 {
 }
 
 .gallery {
-    width: 100%;
+    max-width: 100%;
     padding: 0px;
+    margin: 0px;
     margin-bottom: 5rem;
-    display: block;
 }
 
 .project {
-    width: 25%;
-    float: left;
+    width: 24.7%;
+    background-color: #0f3351;
+    cursor: pointer;
 }
 
 .project:hover {
@@ -331,7 +332,8 @@ h4 {
     }
 
     .project {
-        width: 50%;
+        width: 48%;
+        background-color: #0f3351;
         cursor: pointer;
     }
 
