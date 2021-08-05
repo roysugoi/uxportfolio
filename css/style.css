@@ -198,10 +198,11 @@ h4 {
     padding: 0px;
     margin: 0px;
     margin-bottom: 5rem;
+    font-size: 0px;
 }
 
 .project {
-    width: 24.7%;
+    width: 25%;
     background-color: #0f3351;
     cursor: pointer;
 }
@@ -245,12 +246,12 @@ h4 {
 }
 
 .aboutphoto {
-    width: 24.7%;
+    width: 25%;
     float: left;
 }
 
 .abouttext {
-    width: 24.7%;
+    width: 25%;
     float: left;
 }
 
@@ -260,7 +261,7 @@ h4 {
         margin-left: 2rem;
     }
     .abouttext {
-        width: 49.4%;
+        width: 50%;
         float: left;
     }
 }
@@ -332,7 +333,7 @@ h4 {
     }
 
     .project {
-        width: 48%;
+        width: 50%;
         background-color: #0f3351;
         cursor: pointer;
     }
@@ -344,12 +345,12 @@ h4 {
     }
 
     .aboutphoto {
-        width: 49.4%;
+        width: 50%;
         float: left;
     }
     
     .abouttext {
-        width: 49.4%;
+        width: 50%;
         float: left;
     }
 }
@@ -357,6 +358,6 @@ h4 {
 @media screen and (max-width: 337px){
     
     .project {
-        width: 98.8%;
+        width: 100%;
     }
 }
