@@ -88,7 +88,7 @@ p {
 
 a {
     font-family: 'Karla', sans-serif;
-    color: #383838;
+    color: #0f3351;
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
@@ -136,38 +136,26 @@ h4 {
     z-index: 9999;
 }
 
-.navitems {
+.navbar-container{
+    padding: 2rem;
     float: right;
 }
 
-.navitem {
-    float:left;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    cursor: pointer;
-    height: 60px;
-    width: 120px;
-    border-radius: 4px;
-    line-height: 60px;
-    text-align: center;
+.nav-logo{
+    margin: 2rem;
+    width: 200px;
 }
 
-.navitem:hover {
-    transition: 0.2s;
-    opacity: 1;
-    background-color: #0f3351;
-    color: #f8f8f8;
+.nav-btn {
+    cursor: pointer;
+    margin: 2rem;
+    width: 200px;
 }
 
-.logo {
-    float:left;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    cursor: pointer;
-    height: 60px;
+.btn {
     border-radius: 4px;
-    line-height: 60px;
-    text-align: center;
+    height: 60px;
+    width: 200px;
 }
 
 .mainphrase {
@@ -204,7 +192,6 @@ h4 {
 
 .project {
     width: 25%;
-    background-color: #0f3351;
     cursor: pointer;
 }
 
@@ -264,61 +251,6 @@ h4 {
 }
 
 @media screen and (max-width: 1600px){
-
-    h2 {
-        font-family: 'Karla', sans-serif;
-        color: #383838;
-        font-size: 2rem;
-        font-weight: 300;
-    }
-
-    .navbar {
-        padding: 2rem;
-    }
-
-    .navitems {
-        width: 100%;
-        display: none;
-    }
-
-    .navitem {
-        float: left;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        margin-top: 0.4rem;
-        cursor: pointer;
-        height: 100px;
-        width: 100%;
-        border-radius: 4px;
-        line-height: 100px;
-        text-align: center;
-        font-size: 2.5rem;
-    }
-
-    .navitem-logo {
-        float: left;
-        margin-left: 2rem;
-        margin-right: 0rem;
-        margin-top: 0rem;
-        margin-bottom: 0.6rem;
-        cursor: pointer;
-        height: 45px;
-        line-height: 45px;
-        text-align: center;
-    }
-
-    .navitem-menu {
-        float: right;
-        margin-left: 0rem;
-        margin-right: 2rem;
-        margin-top: 0rem;
-        margin-bottom: 0.6rem;
-        cursor: pointer;
-        height: 45px;
-        border-radius: 0px;
-        line-height: 45px;
-        text-align: center;
-    }
 
     .scroll-opt {
         display: none;
