@@ -88,10 +88,17 @@ p {
 
 a {
     font-family: 'Karla', sans-serif;
-    color: #0f3351;
+    color: #0a253c;
+    opacity: 0.5;
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
+}
+
+a:hover {
+    color: #0a253c;
+    transition: 0.3s;
+    opacity: 1;
 }
 
 h1 {
