@@ -136,17 +136,6 @@ h4 {
     z-index: 9999;
 }
 
-.logo {
-    float: left;
-    max-height: 50px;
-    line-height: 50px;
-    margin-left: 2rem;
-}
-
-.logoitem {
-    float: left;
-}
-
 .navitems {
     float: right;
 }
@@ -170,6 +159,17 @@ h4 {
     color: #f8f8f8;
 }
 
+.navitem-logo {
+    float:left;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 4px;
+    line-height: 60px;
+    text-align: center;
+}
 
 .mainphrase {
     padding: 5rem;
@@ -300,6 +300,7 @@ h4 {
         float: left;
         margin-left: 0rem;
         margin-right: 0rem;
+        margin-top: 0.4rem;
         cursor: pointer;
         height: 100px;
         width: 100%;
@@ -307,6 +308,19 @@ h4 {
         line-height: 100px;
         text-align: center;
         font-size: 2.5rem;
+    }
+
+    .navitem-logo {
+        float:none;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        cursor: pointer;
+        height: 45px;
+        border-radius: 0px;
+        line-height: 45px;
+        text-align: center;
     }
 
     .mainphrase {
