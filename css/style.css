@@ -89,7 +89,6 @@ p {
 a {
     font-family: 'Karla', sans-serif;
     color: #0a253c;
-    opacity: 0.5;
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
@@ -151,12 +150,14 @@ h4 {
 .nav-logo{
     margin: 2rem;
     width: 200px;
+    opacity: 0.5;
 }
 
 .nav-btn {
     cursor: pointer;
     margin: 2rem;
     width: 200px;
+    opacity: 0.5;
 }
 
 .btn {
@@ -200,6 +201,7 @@ h4 {
 .project {
     width: 25%;
     cursor: pointer;
+    opacity: 1;
 }
 
 .project:hover {
@@ -241,8 +243,14 @@ h4 {
 }
 
 .aboutphoto {
+    opacity: 0.75;
     width: 50%;
     float: left;
+}
+
+.aboutphoto:hover {
+    transition: 0.3s;
+    opacity: 0.85;
 }
 
 .abouttext {
