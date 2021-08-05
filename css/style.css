@@ -288,10 +288,22 @@ h4 {
         font-weight: 300;
     }
 
-    .navitem {
-        display: none;
+    .navitems {
+        width: 100%;
     }
-    
+
+    .navitem {
+        float: left;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        cursor: pointer;
+        height: 60px;
+        width: 100%;
+        border-radius: 4px;
+        line-height: 60px;
+        text-align: center;
+    }
+
     .scroll-opt {
         display: none;
     }
