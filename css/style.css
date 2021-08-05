@@ -266,7 +266,7 @@ h4 {
 }
 
 @media screen and (max-width: 1300px){
-
+    
     .aboutmetitle {
         padding: 0rem;
         margin-left: 2rem;
@@ -283,5 +283,24 @@ h4 {
 
     .scroll-opt {
         display: none;
+    }
+
+    .project {
+        width: 49.4%;
+        background-color: #0f3351;
+        cursor: pointer;
+    }
+
+    .mainphrase {
+        padding: 2rem;
+        margin-left: 2rem;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 337px){
+    
+    .project {
+        width: 98.8%;
     }
 }
