@@ -250,14 +250,14 @@ h4 {
 }
 
 .aboutphoto {
-    opacity: 0.75;
+    opacity: 0.95;
     width: 50%;
     float: left;
 }
 
 .aboutphoto:hover {
     transition: 0.3s;
-    opacity: 0.85;
+    opacity: 1;
 }
 
 .abouttext {
