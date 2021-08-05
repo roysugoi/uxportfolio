@@ -174,7 +174,7 @@ h4 {
 .mainphrase {
     padding: 5rem;
     margin-left: 2rem;
-    max-width: 33%;
+    max-width: 100%;
 }
 
 
@@ -239,12 +239,42 @@ h4 {
     margin-bottom: 5rem;
 }
 
-.aboutelement {
+.aboutmetitle {
+    padding: 5rem;
+    margin-left: 2rem;
+}
+
+.aboutphoto {
     width: 24.7%;
     float: left;
 }
 
-.aboutmetitle {
-    padding: 5rem;
-    margin-left: 2rem;
+.abouttext {
+    width: 24.7%;
+    float: left;
+}
+
+@media screen and (max-width: 2000px){
+    .aboutmetitle {
+        padding: 2rem;
+        margin-left: 2rem;
+    }
+    .abouttext {
+        width: 49.4%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1300px){
+
+    .aboutmetitle {
+        padding: 0rem;
+        margin-left: 2rem;
+        padding-right: 5rem;
+    }
+
+    .abouttext {
+        width: 74.1%;
+        float: left;
+    }
 }
