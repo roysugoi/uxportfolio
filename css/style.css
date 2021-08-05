@@ -153,6 +153,13 @@ h4 {
     opacity: 0.5;
 }
 
+.nav-logo2 {
+    margin-bottom: 1rem;
+    width: 200px;
+    opacity: 0.5;
+    display: none;
+}
+
 .nav-btn {
     cursor: pointer;
     margin: 2rem;
@@ -284,7 +291,7 @@ h4 {
         width: 100%;
         text-align: center;
     }
-    
+  
 
     .mainphrase {
         padding: 2rem;
@@ -312,10 +319,23 @@ h4 {
     .nav-logo {
         display: none;
     }
+
+    .nav-logo2 {
+        display: block;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 980px){
     .nav-btn{
         font-size: 2.5rem;
+    }
+
+    .nav-logo2 {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        height: 165px;
     }
 }
