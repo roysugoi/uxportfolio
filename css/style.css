@@ -281,6 +281,17 @@ h4 {
 
 @media screen and (max-width: 996px){
 
+    h2 {
+        font-family: 'Karla', sans-serif;
+        color: #383838;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .navitem {
+        display: none;
+    }
+    
     .scroll-opt {
         display: none;
     }
@@ -295,6 +306,16 @@ h4 {
         padding: 2rem;
         margin-left: 2rem;
         max-width: 100%;
+    }
+
+    .aboutphoto {
+        width: 49.4%;
+        float: left;
+    }
+    
+    .abouttext {
+        width: 49.4%;
+        float: left;
     }
 }
 
