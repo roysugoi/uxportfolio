@@ -57,8 +57,7 @@ SCROLLBAR
 ===================================*/
 
 ::-webkit-scrollbar {
-    width: 5px;
-    padding-right: 2px;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-track {
@@ -165,7 +164,7 @@ h4 {
 }
 
 .navitem:hover {
-    transition: 0.5s;
+    transition: 0.2s;
     opacity: 1;
     background-color: #0f3351;
     color: #f8f8f8;
@@ -198,6 +197,7 @@ h4 {
     max-width: 100%;
     padding: 0px;
     margin: 0px;
+    margin-bottom: 5rem;
 }
 
 .project {
@@ -231,4 +231,20 @@ h4 {
 .go-up:hover {
     opacity: 1;
     filter: saturate(1);
+}
+
+.aboutme {
+    max-width: 100%;
+    padding: 0px;
+    margin-bottom: 5rem;
+}
+
+.aboutelement {
+    width: 24.7%;
+    float: left;
+}
+
+.aboutmetitle {
+    padding: 5rem;
+    margin-left: 2rem;
 }
