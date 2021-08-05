@@ -313,3 +313,9 @@ h4 {
         display: none;
     }
 }
+
+@media screen and (max-width: 980px){
+    .nav-btn{
+        font-size: 2.5rem;
+    }
+}
