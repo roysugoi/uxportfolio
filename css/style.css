@@ -210,8 +210,8 @@ h4 {
 }
 
 .project:hover {
-    transition: 0.5s;
-    transform: scale(1.05);
+    transition: 0.1s;
+    opacity: 0.8;
 }
 
 .go-up {
