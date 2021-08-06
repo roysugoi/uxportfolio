@@ -221,6 +221,8 @@ h4 {
 .aboutme {
     width: 100%;
     padding: 0px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .aboutme-container{
@@ -341,6 +343,14 @@ h4 {
         margin-top: 5rem;
         max-width: 100%;
     }
+
+    .aboutme {
+        width: 100%;
+        padding: 0px;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    
 
     .aboutme-container{
         display: flex;
