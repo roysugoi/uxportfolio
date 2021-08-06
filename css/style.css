@@ -107,7 +107,7 @@ h1 {
     font-weight: 200;
 }
 
-h2 {
+h2, link {
     font-family: 'Karla', sans-serif;
     color: #383838;
     font-size: 20px;
@@ -243,6 +243,11 @@ h4 {
     padding: 0px;
 }
 
+.aboutme-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .aboutmetitle {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -255,7 +260,7 @@ h4 {
 .aboutphoto {
     opacity: 0.95;
     width: 50%;
-    float: left;
+    display:flex;
 }
 
 .aboutphoto:hover {
@@ -289,6 +294,11 @@ h4 {
     transition: 1s;
     filter: saturate(1);
     filter: contrast(1);
+}
+
+.footer-container{
+    height: 500px;
+    background-color: #0f3351;
 }
 
 @media screen and (max-width: 1630px){
@@ -328,14 +338,20 @@ h4 {
   
     .navbar {
         height: 120px;
+        display: none;
     }
 
     .mainphrase {
         padding: 2rem;
         margin-left: 2rem;
         margin-right: 2rem;
-        margin-top: 15rem;
+        margin-top: 5rem;
         max-width: 100%;
+    }
+
+    .aboutme-container{
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .aboutphoto{
@@ -347,6 +363,7 @@ h4 {
         width: 100%;
         float: left;
     }
+
     .aboutmetitle {
         padding-left: 5rem;
         padding-right: 5rem;
@@ -386,8 +403,4 @@ h4 {
     .am-trigger2{
         display: block;
     }
-}
-
-@media screen and (max-width: 800px){
-
 }
