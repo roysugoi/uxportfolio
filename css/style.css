@@ -185,7 +185,7 @@ h4 {
     background: #0f3351;
     height: 10px;
     width: 10rem;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 .buttonrow {
@@ -276,7 +276,37 @@ h4 {
     display: none;
 }
 
-@media screen and (max-width: 1600px){
+.smicon{
+    height: 50px;
+    filter: saturate(0);
+    cursor: pointer;
+    border-radius: 2px;
+    filter: contrast(0);
+}
+
+.smicon:hover{
+    height: 50px;
+    transition: 1s;
+    filter: saturate(1);
+    filter: contrast(1);
+}
+
+@media screen and (max-width: 1630px){
+
+    .smicon{
+        height: 100px;
+        filter: saturate(0);
+        cursor: pointer;
+        border-radius: 2px;
+        filter: contrast(0);
+    }
+    
+    .smicon:hover{
+        height: 100px;
+        transition: 1s;
+        filter: saturate(1);
+        filter: contrast(1);
+    }
 
     .scroll-opt {
         display: none;
