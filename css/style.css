@@ -206,14 +206,14 @@ h4 {
 }
 
 .project {
-    transition: 1s;
+    transition: 0.3s;
     width: 25%;
     cursor: pointer;
     opacity: 1;
 }
 
 .project:hover {
-    transition: 0.1s;
+    transition: 0.3s;
     opacity: 0.8;
 }
 
@@ -237,14 +237,14 @@ h4 {
 }
 
 .aboutphoto {
-    transition: 1s;
-    opacity: 0.75;
+    transition: 0.3s;
+    opacity: 1;
     width: 50%;
     display:flex;
 }
 
 .aboutphoto:hover {
-    transition: 1s;
+    transition: 0.3s;
     opacity: 1;
 }
 
@@ -265,16 +265,19 @@ h4 {
     height: 50px;
     cursor: pointer;
     border-radius: 2px;
+    filter: contrast(0);
+    transition: 0.3s;
 }
 
 .smicon:hover{
     height: 50px;
-    transition: 1s;
+    transition: 0.3s;
+    filter: contrast(1);
 }
 
 .footer-container{
-    height: 40px;
-    background-color: #0f3351;
+    height: 0px;
+    background-color: transparent;
 }
 
 .scroll-opt {
@@ -295,11 +298,12 @@ h4 {
         height: 50px;
         cursor: pointer;
         border-radius: 2px;
+        filter: contrast(0);
     }
     
     .smicon:hover{
         height: 50px;
-        transition: 1s;
+        transition: 0.3s;
     }
 
     .scroll-opt {
@@ -400,6 +404,6 @@ h4 {
     
     .smicon:hover{
         height: 100px;
-        transition: 1s;
+        transition: 0.3s;
     }
 }
