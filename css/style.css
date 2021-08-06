@@ -107,7 +107,7 @@ h1 {
     font-weight: 200;
 }
 
-h2, link {
+h2 {
     font-family: 'Karla', sans-serif;
     color: #383838;
     font-size: 20px;
@@ -150,13 +150,13 @@ h4 {
 .nav-logo{
     margin: 2rem;
     width: 200px;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .nav-logo2 {
     margin-bottom: 1rem;
     width: 200px;
-    opacity: 0.5;
+    opacity: 1;
     display: none;
 }
 
@@ -164,7 +164,7 @@ h4 {
     cursor: pointer;
     margin: 2rem;
     width: 200px;
-    opacity: 0.85;
+    opacity: 0.65;
 }
 
 .btn {
@@ -200,7 +200,7 @@ h4 {
     max-width: 100%;
     padding: 0px;
     margin: 0px;
-    margin-bottom: 5rem;
+    margin-bottom: 0rem;
     font-size: 0px;
     line-height: 0px;
 }
@@ -214,28 +214,6 @@ h4 {
 .project:hover {
     transition: 0.1s;
     opacity: 0.8;
-}
-
-.go-up {
-    opacity: 0.8;
-    filter: saturate(0);
-    font-family: 'Karla', sans-serif;
-    color: #0f3351;
-    position: fixed;
-    bottom: 4rem;
-    right: 4rem;
-    font-size: 100px;
-    cursor: pointer;
-    border-radius: 50%;
-    background-color: #f8f8f8;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-}
-
-.go-up:hover {
-    opacity: 1;
-    filter: saturate(1);
 }
 
 .aboutme {
@@ -283,17 +261,13 @@ h4 {
 
 .smicon{
     height: 50px;
-    filter: saturate(0);
     cursor: pointer;
     border-radius: 2px;
-    filter: contrast(0);
 }
 
 .smicon:hover{
     height: 50px;
     transition: 1s;
-    filter: saturate(1);
-    filter: contrast(1);
 }
 
 .footer-container{
@@ -301,25 +275,32 @@ h4 {
     background-color: #0f3351;
 }
 
+.scroll-opt2 {
+    display: none;
+    line-height: 30px;
+    font-size: 30px;
+    opacity: 0.75;
+}
+
 @media screen and (max-width: 1630px){
 
     .smicon{
-        height: 100px;
-        filter: saturate(0);
+        height: 50px;
         cursor: pointer;
         border-radius: 2px;
-        filter: contrast(0);
     }
     
     .smicon:hover{
-        height: 100px;
+        height: 50px;
         transition: 1s;
-        filter: saturate(1);
-        filter: contrast(1);
     }
 
     .scroll-opt {
         display: none;
+    }
+
+    .scroll-opt2 {
+        display: block;
     }
 
     .project {
@@ -369,7 +350,7 @@ h4 {
         padding-right: 5rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
-        text-align: justify;
+        text-align: left;
         text-justify: inter-word;
     }
 
@@ -402,5 +383,16 @@ h4 {
 
     .am-trigger2{
         display: block;
+    }
+
+    .smicon{
+        height: 100px;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    
+    .smicon:hover{
+        height: 100px;
+        transition: 1s;
     }
 }
