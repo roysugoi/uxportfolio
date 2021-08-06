@@ -12,6 +12,8 @@ html {
     -o-animation: fadeIn linear 0.5s;
     -ms-animation: fadeIn linear 0.5s;
     overflow-x: hidden;
+    max-width: 1630px;
+    margin: 0 auto;
 }
   
   @keyframes fadeIn {
