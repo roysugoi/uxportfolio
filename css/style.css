@@ -319,7 +319,7 @@ h4{
     opacity: 0.3;
 }
 
-@media screen and (max-width: 1630px){
+@media screen and (max-width: 1000px){
 
     .smicon{
         height: 50px;
