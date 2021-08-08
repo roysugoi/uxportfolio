@@ -53,6 +53,10 @@ body {
     margin: 0px;
 }
 
+figure {
+    display: inline-block !important;
+    text-align: center !important;
+}
 /*===================================
 
 SCROLLBAR
@@ -86,6 +90,7 @@ p {
     font-family: 'Karla', sans-serif;
     color: #383838;
     font-size: 16px;
+    display: inline-block;
 }
 
 a {
@@ -416,4 +421,8 @@ h4 {
         height: 100px;
         transition: 0.3s;
     }
+}
+
+.invisible {
+    font-size: 0px;
 }
