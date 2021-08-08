@@ -429,6 +429,12 @@ h4{
         line-height: 3rem;
     }
 
+    .nav-item-container-project{
+        width: 45%;
+        line-height: 3rem;  
+    }
+
+
     .nav-btn {
         font-size: 3rem;
     }
