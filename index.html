@@ -10,12 +10,8 @@
         <title>Roy - UX Portfolio</title>
             <nav aria-label="site" class="navbar">
                 <div class="navbar-container">
-                    <p><a class="nav-logo"><strong>Roy&nbsp;V.</strong></a></p>
-                    <p><a class="nav-logo">&nbsp;|&nbsp;UX & Visual Designer<span class="invisible">.</span></a></p>
-
-                    <p><a class="nav-logo2"><strong>Roy&nbsp;V.</strong></a></p>
-                    <p><a class="nav-logo2">&nbsp;|&nbsp;UX & Visual Designer<span class="invisible">.</span></a></p>
-
+                    <p><a class="nav-logo"><strong style="float: right">Roy V.</strong></a></p>
+                    <p><a class="nav-logo"><span style="float: left"> | UX & Visual Designer<span class="invisible">.</span></span></a></p>
                     <p><a class="nav-btn" href="#work">My work<span class="invisible">.</span></a></p>
                     <p><a class="nav-btn" href="aboutme.html">About me<span class="invisible">.</span></a></p>
                     <p><a class="nav-btn" href="#contact">Contact<span class="invisible">.</span></a></p>
@@ -27,12 +23,21 @@
         <main>
             <section class="mainphrase">
                 <div class="ribbon"></div>
-                <h1 ><strong>Hi! I'm Roy.</strong></br>This is my <span style="color: #0f3351; font-weight: 300;">UX portfolio.</span></h1>
-                <h1 style="margin-bottom: 6rem;">I love designing simple<br>digital user experiences.</h1>
-                <h2 id="work" class="scroll-opt"><img aria-label="Remember that you can use your Tab key or screen reader to use this site." src="img/click.svg" style="height: 3rem; opacity: 0.3; display: inline-flex; vertical-align: middle;"><a class="nav-btn" style="margin: 10px !important;" href="#project1">Choose a project to know more!</a></h2>
-                <h2 id="work" class="scroll-opt2"><img aria-label="Remember that you can use your Tab key or screen reader to use this site." src="img/tap.svg" style="height: 3rem; opacity: 0.3; display: inline-flex; vertical-align: middle;"><a class="nav-btn"  href="#project1">Choose a project to know more!</a></h2>
+                <h1>
+                    <!--<p><span class="invisible">.</span></p>-->
+                    <strong>Hi! I'm Roy.</strong></br>
+                    This is my <span style="color: #0f3351; font-weight: 300;">UX portfolio.</span>
+                </h1>
+                <h1 style="margin-bottom: 6rem;">
+                    I love designing simple<br>digital user experiences.
+                </h1>
             </section>
-            <section class="gallery">
+            <section id="work" class="gallery">
+                <div class="gallery-info">
+                    <img class="clickicon" src="img/click.svg" aria-label="Remember that you can use your Tab key or screen reader to use this site.">
+                    <img class="tapicon" src="img/tap.svg" aria-label="Remember that you can use your Tab key or screen reader to use this site.">
+                    <a class="gallery-info-text" href="#project1">Choose a project to know more!</a>
+                </div>
                 <link><a id="project1" href=""><img alt="Project 1. Bloomod: Air purification in indoor environments." class="project" src="img/projects/bloomod.png"></a></link>
                 <link><a href=""><img alt="Project 2. Warden: Securing people in safe zones in case of danger." class="project" src="img/projects/warden.png"></a></link>
                 <link><a href=""><img alt="Project 3. Atlas: A way to use blockchain to help international refugees." class="project" src="img/projects/atlas.png"></a></link>

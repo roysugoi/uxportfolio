@@ -4,7 +4,7 @@ STRUCTURE
 
 ===================================*/
 
-html {
+html{
     display: inline-block;
     animation: fadeIn linear 0.5s;
     -webkit-animation: fadeIn linear 0.5s;
@@ -16,44 +16,44 @@ html {
     margin: 0 auto;
 }
   
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  @keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
   }
   
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  @-moz-keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
   }
   
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  @-webkit-keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
   }
   
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  @-o-keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
   }
   
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  @-ms-keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
   }
 
-head {
+head{
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-body {
+body{
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
     padding: 0px;
     margin: 0px;
 }
 
-figure {
+figure{
     display: inline-block !important;
     text-align: center !important;
 }
@@ -63,19 +63,19 @@ SCROLLBAR
 
 ===================================*/
 
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     width: 12px;
 }
 
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track{
   background: #f8f8f8; 
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
   background: #0f3351;
 }
 
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover{
   background: #0f3351; 
 }
 
@@ -86,14 +86,14 @@ TEXT
 
 ===================================*/
 
-p {
+p{
     font-family: 'Karla', sans-serif;
     color: #383838;
     font-size: 16px;
     display: inline-block;
 }
 
-a {
+a{
     font-family: 'Karla', sans-serif;
     color: #0a253c;
     font-size: 20px;
@@ -101,34 +101,34 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover{
     color: #0a253c;
     transition: 0.3s;
     opacity: 1;
 }
 
-h1 {
+h1{
     font-family: 'Karla', sans-serif;
     color: #383838;
     font-size: 50px;
     font-weight: 200;
 }
 
-h2 {
+h2{
     font-family: 'Karla', sans-serif;
     color: #383838;
     font-size: 20px;
     font-weight: 300;
 }
 
-h3 {
+h3{
     font-family: 'Karla', sans-serif;
     color: #383838;
     font-size: 16px;
     font-weight: 100;
 }
 
-h4 {
+h4{
     font-family: 'Karla', sans-serif;
     color: #f8f8f8;
     font-size: 20px;
@@ -138,7 +138,7 @@ h4 {
     line-height: 25px;
 }
 
-.navbar {
+.navbar{
     width: 100%;
     position: sticky;
     left: 0px;
@@ -154,54 +154,54 @@ h4 {
 }
 
 .nav-logo{
-    margin: 2rem;
+    margin: 1rem;
     width: 200px;
     opacity: 1;
 }
 
-.nav-logo2 {
+.nav-logo2{
     margin-bottom: 1rem;
     width: 200px;
     opacity: 1;
     display: none;
 }
 
-.nav-btn {
+.nav-btn{
     cursor: pointer;
     margin: 2rem;
     width: 200px;
     opacity: 0.65;
 }
 
-.btn {
+.btn{
     border-radius: 4px;
     height: 60px;
     width: 200px;
 }
 
-.mainphrase {
+.mainphrase{
     padding: 5rem;
     margin-top: 2rem;
     max-width: 100%;
 }
 
 
-.ribbon {
+.ribbon{
     background: #0f3351;
     height: 10px;
     width: 10rem;
     border-radius: 2px;
 }
 
-.buttonrow {
+.buttonrow{
     margin-top: 3rem;
 }
 
-.cont-text {
+.cont-text{
     float: left;
 }
 
-.gallery {
+.gallery{
     max-width: 100%;
     padding: 0px;
     margin: 0px;
@@ -210,19 +210,25 @@ h4 {
     line-height: 0px;
 }
 
-.project {
+.gallery-info{
+    color: #929292 !important;
+    padding-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.project{
     transition: 0.3s;
     width: 25%;
     cursor: pointer;
     opacity: 1;
 }
 
-.project:hover {
+.project:hover{
     transition: 0.3s;
     opacity: 0.8;
 }
 
-.aboutme {
+.aboutme{
     width: 100%;
     padding: 0px;
     margin-top: 5rem;
@@ -234,7 +240,7 @@ h4 {
     flex-wrap: nowrap;
 }
 
-.aboutmetitle {
+.aboutmetitle{
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 3rem;
@@ -243,19 +249,19 @@ h4 {
     text-justify: inter-word;
 }
 
-.aboutphoto {
+.aboutphoto{
     transition: 0.3s;
     opacity: 1;
     width: 50%;
     display:flex;
 }
 
-.aboutphoto:hover {
+.aboutphoto:hover{
     transition: 0.3s;
     opacity: 1;
 }
 
-.abouttext {
+.abouttext{
     width: 40%;
     float: left;
 }
@@ -287,16 +293,27 @@ h4 {
     background-color: transparent;
 }
 
-.scroll-opt {
-    color: #929292 !important;
+.clickicon{
+    display: inline-flex;
+    vertical-align: middle;
+    height: 2rem;
+    opacity: 0.3;
 }
 
-.scroll-opt2 {
+.tapicon{
     display: none;
-    line-height: 30px;
-    font-size: 30px;
-    opacity: 0.75;
-    color: #929292 !important;
+    height: 3rem;
+    opacity: 0.3;
+}
+
+.gallery-info-text{
+    cursor: pointer;
+    margin: 1rem;
+    opacity: 0.65;
+    line-height: 2rem;
+    display: inline-flex;
+    vertical-align: middle;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 1630px){
@@ -313,21 +330,26 @@ h4 {
         transition: 0.3s;
     }
 
-    .scroll-opt {
+    .clickicon{
         display: none;
+        height: 3rem;
+        opacity: 0.3;        
+    }
+    
+    .tapicon{
+        display: inline-flex;
+        vertical-align: middle;
+        height: 3rem;
+        opacity: 0.3;        
     }
 
-    .scroll-opt2 {
-        display: block;
-    }
-
-    .project {
+    .project{
         width: 50%;
         background-color: #0f3351;
         cursor: pointer;
     }
 
-    .navbar-container {
+    .navbar-container{
         padding: 0px;
         float: none;
         padding-top: 2rem;
@@ -335,12 +357,12 @@ h4 {
         text-align: center;
     }
   
-    .navbar {
+    .navbar{
         height: 120px;
         display: none;
     }
 
-    .mainphrase {
+    .mainphrase{
         padding: 2rem;
         margin-left: 2rem;
         margin-right: 2rem;
@@ -348,7 +370,7 @@ h4 {
         max-width: 100%;
     }
 
-    .aboutme {
+    .aboutme{
         width: 100%;
         padding: 0px;
         margin-top: 0rem;
@@ -366,12 +388,12 @@ h4 {
         float: left;
     }
     
-    .abouttext {
+    .abouttext{
         width: 100%;
         float: left;
     }
 
-    .aboutmetitle {
+    .aboutmetitle{
         padding-left: 5rem;
         padding-right: 5rem;
         padding-top: 5rem;
@@ -380,11 +402,11 @@ h4 {
         text-justify: inter-word;
     }
 
-    .nav-logo {
+    .nav-logo{
         display: none;
     }
 
-    .nav-logo2 {
+    .nav-logo2{
         display: block;
         width: 100%;
     }
@@ -395,11 +417,11 @@ h4 {
         font-size: 2.5rem;
     }
 
-    .nav-logo2 {
+    .nav-logo2{
         font-size: 2.5rem;
     }
 
-    .navbar {
+    .navbar{
         height: 180px;
     }
 
@@ -423,6 +445,6 @@ h4 {
     }
 }
 
-.invisible {
+.invisible{
     font-size: 0px;
 }
