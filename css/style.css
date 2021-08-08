@@ -249,8 +249,8 @@ h4{
 }
 
 .aboutme-container{
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
 }
 
 .aboutmetitle{
@@ -262,19 +262,28 @@ h4{
     text-justify: inter-word;
 }
 
-.aboutphoto{
+.aboutme-photo-container{
     transition: 0.3s;
     opacity: 1;
     width: 50%;
-    display:flex;
+    display: flex;
 }
 
-.aboutphoto:hover{
+.aboutme-photo-container:hover{
     transition: 0.3s;
     opacity: 1;
 }
 
-.abouttext{
+.aboutme-photo-xl{
+    width: 100%;
+}
+
+.aboutme-photo-m{
+    display: none;
+    max-width: 100%;
+}
+
+.aboutme-text{
     width: 40%;
     float: left;
 }
@@ -317,6 +326,34 @@ h4{
     display: none;
     height: 3rem;
     opacity: 0.3;
+}
+
+@media screen and (max-width: 1500px){
+
+    .aboutme-container{
+        width: 100%;
+        display: block;
+    }
+    
+    .aboutme-photo-xl{
+        display: none;
+    }
+
+    .aboutme-photo-m{
+        display: flex;
+    }
+
+    .aboutme-photo-container{
+        transition: 0.3s;
+        opacity: 1;
+        width: 100%;
+        display: block;
+    }
+
+    .aboutme-text{
+        width: 100%;
+        float: left;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -393,16 +430,17 @@ h4{
     
 
     .aboutme-container{
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .aboutphoto{
+    .aboutme-photo-container{
         width: 100%;
         float: left;
     }
     
-    .abouttext{
+    .aboutme-text{
         width: 100%;
         float: left;
     }
