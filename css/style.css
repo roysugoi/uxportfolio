@@ -157,13 +157,11 @@ h4{
     margin: 1rem;
     width: 200px;
     opacity: 0.65;
-}
-
-.nav-logo2{
-    margin-bottom: 1rem;
-    width: 200px;
-    opacity: 1;
-    display: none;
+    font-family: 'Karla', sans-serif;
+    color: #0a253c;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 .nav-btn{
@@ -421,19 +419,10 @@ h4{
     .nav-logo{
         display: none;
     }
-
-    .nav-logo2{
-        display: block;
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 980px){
     .nav-btn{
-        font-size: 2.5rem;
-    }
-
-    .nav-logo2{
         font-size: 2.5rem;
     }
 
@@ -465,5 +454,4 @@ h4{
     font-size: 0px;
     margin: 0px;
     padding: 0px;
-    position: fixed;
 }
