@@ -151,11 +151,17 @@ h4{
 .navbar-container{
     padding: 2rem;
     float: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-.nav-logo{
-    margin: 1rem;
-    width: 200px;
+.logo{
+    margin-right: 2rem;
+}
+
+.logo-item{
+    margin-top: 1rem;
     opacity: 0.65;
     font-family: 'Karla', sans-serif;
     color: #0a253c;
@@ -328,12 +334,12 @@ h4{
     opacity: 0.3;
 }
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1630px){
 
     .aboutme {
         margin-top: 0rem;
     }
-    
+
     .aboutme-container{
         width: 100%;
         display: block;
@@ -360,7 +366,7 @@ h4{
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 990px){
 
     .smicon{
         height: 50px;
@@ -399,11 +405,36 @@ h4{
         padding-top: 2rem;
         width: 100%;
         text-align: center;
+        display: flex;
+        align-content: center;
+        justify-content: center;
     }
   
     .navbar{
         height: 120px;
+        display: block;
+    }
+
+    .logo{
         display: none;
+    }
+
+    .navbar{
+        height: 180px;
+    }
+
+
+    .nav-item-container{
+        width: 33%;
+        line-height: 3rem;
+    }
+
+    .nav-btn {
+        font-size: 3rem;
+    }
+
+    .nav-items{
+        width: 100%;   
     }
 
     .mainphrase{
@@ -458,18 +489,8 @@ h4{
         text-justify: inter-word;
     }
 
-    .nav-logo{
+    .logo-item{
         display: none;
-    }
-}
-
-@media screen and (max-width: 980px){
-    .nav-btn{
-        font-size: 2.5rem;
-    }
-
-    .navbar{
-        height: 180px;
     }
 
     .am-trigger1{
