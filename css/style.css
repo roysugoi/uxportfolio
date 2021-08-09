@@ -140,6 +140,12 @@ h4{
     font-weight: 500;
 }
 
+.active-brown{
+    opacity: 1 !important;
+    color: #DC9A56;
+    font-weight: 500;
+}
+
 .active-yellow{
     opacity: 1 !important;
     color: #efbf00;
@@ -191,12 +197,21 @@ h4{
     width: 200px;
 }
 
-.mainphrase{
+.banner-container{
+    display: inline-flex;
+    width: 100%;
+}
+
+.slogan{
+    width: 100%;
     padding: 5rem;
     margin-top: 2rem;
     max-width: 100%;
 }
 
+.slogan-decoration{
+    width: 50%;
+}
 
 .ribbon-pink{
     background: #ef0060;
@@ -212,6 +227,13 @@ h4{
     border-radius: 2px;
 }
 
+.ribbon-blue{
+    background: #00bfef;
+    height: 10px;
+    width: 10rem;
+    border-radius: 2px;
+}
+
 .buttonrow{
     margin-top: 3rem;
 }
@@ -222,7 +244,6 @@ h4{
 
 .gallery{
     max-width: 100%;
-    padding: 0px;
     margin: 0px;
     margin-bottom: 0rem;
     font-size: 0px;
@@ -231,8 +252,8 @@ h4{
 
 .gallery-info{
     color: #929292 !important;
-    padding-left: 5rem;
     margin-bottom: 2rem;
+    padding-left: 1rem;
 }
 
 .gallery-info-text{
@@ -386,6 +407,186 @@ h4{
     color: #b3b3b3;
 }
 
+
+/*===================================
+
+PHONE
+
+===================================*/
+
+.phone {
+    margin: 0;
+    position: relative;
+    padding: 3rem;
+}
+
+.phone-container {
+    position: relative;
+    max-height: 700px;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+        /* Transform with the translate3d attribute allows img's to be renderized without a 1px pop at the end, making it smoother, and the first digit centers in the X axys the content. */
+    animation-name: phone-container;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+        /* Forward makes the animation stop wherever it is and not reset to the original position */
+    }
+
+    @keyframes phone-container {
+    0% {
+    padding-bottom: 0px;
+    opacity: 0.0;
+    }
+    5% {
+    padding-bottom: 0px;
+    opacity: 0.0;
+    }
+    10% {
+    padding-bottom: 0px;
+    opacity: 1.0;
+    }  
+    100% {
+    padding-bottom: 0px;
+    opacity: 1.0;
+    }
+}
+
+    .unlock {
+    position: absolute;
+    max-height: 700px;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+        /* Transform with the translate3d attribute allows img's to be renderized without a 1px pop at the end, making it smoother, and the first digit centers in the X axys the content. */
+    animation-name: unlock;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+        /* Forward makes the animation stop wherever it is and not reset to the original position */
+    }
+
+    @keyframes unlock {
+    0% {
+    padding-bottom: 0px;
+    opacity: 0.0;
+    }
+    35% {
+    padding-bottom: 0px;
+    opacity: 0.0;
+    }  
+    50% {
+    padding-bottom: 0px;
+    opacity: 1.0;
+    }
+    75% {
+    padding-bottom: 0px;
+    opacity: 1.0;
+    width: 80%;
+    }
+    100% {
+    padding-bottom: 0px;
+    opacity: 0.0;
+    }
+}
+
+.scr1 {
+    position: absolute;
+    height: 700px;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+        /* Transform with the translate3d attribute allows img's to be renderized without a 1px pop at the end, making it smoother, and the first digit centers in the X axys the content. */
+    animation-name: scr1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+        /* Forward makes the animation stop wherever it is and not reset to the original position */
+    }
+
+    @keyframes scr1 {
+    0% {
+    padding-bottom: 0px;
+    opacity: 0.0;
+    }
+    65% {
+    padding-bottom: 0px;
+    opacity: 0.0;
+    }
+    85% {
+    padding-bottom: 0px;
+    opacity: 1.0;
+    }  
+    100% {
+    padding-bottom: 0px;
+    opacity: 1.0;
+    }
+}
+
+.decoration1{
+    position: absolute;
+    top: 360px;
+    left: 80px;
+    z-index: -2;
+    width: 25%;
+    opacity: 0.7;
+    animation-name: deco1;
+    animation-duration: 3s;
+    }
+
+    @keyframes deco1 {
+    0% {
+        opacity: 0;
+        transform: scale(1.05);
+        transform: translate3d(-10px, 22px);
+        transform: rotate(191deg);
+    }
+    33% {
+        transform: scale(1.15);
+        transform: translate3d(5, 5px);
+    }  
+    66% {
+        transform: scale(0.65);
+        transform: translate3d(-1px, -7px);
+    }
+    100% {
+        transform: scale(1.00);
+        transform: translate3d(0, 0px);
+    }
+}
+
+.decoration2{
+    position: absolute;
+    top: 260px;
+    right: 120px;
+    z-index: -2;
+    width: 15%;
+    opacity: 0.5;
+    
+    animation-name: deco2;
+    animation-duration: 3s;
+    }
+
+    @keyframes deco2 {
+    0% {
+        opacity: 0;
+        transform: scale(1.05);
+        transform: translate3d(-10px, 22px);
+        transform: rotate(191deg);
+    }
+    33% {
+        transform: scale(1.15);
+        transform: translate3d(5, 5px);
+    }  
+    66% {
+        transform: scale(0.65);
+        transform: translate3d(-1px, -7px);
+    }
+    100% {
+        transform: scale(1.00);
+        transform: translate3d(0, 0px);
+    }
+}
+
+
 @media screen and (max-width: 1630px){
 
     .aboutme {
@@ -456,7 +657,6 @@ h4{
 
     .project{
         width: 50%;
-        background-color: #0f3351;
         cursor: pointer;
     }
 
@@ -491,7 +691,7 @@ h4{
     }
 
     .nav-item-container-project{
-        width: 45%;
+        width: 33%;
         line-height: 3rem;  
     }
 
@@ -504,12 +704,16 @@ h4{
         width: 100%;   
     }
 
-    .mainphrase{
+    .slogan{
+        width: 100%;
         padding: 2rem;
         margin-left: 2rem;
         margin-right: 2rem;
         margin-top: 5rem;
-        max-width: 100%;
+    }
+
+    .slogan-decoration{
+        display: none;
     }
 
     .gallery-info-text{
@@ -609,7 +813,24 @@ h4{
         line-height: 0px;
         padding-left: 0rem;
     }
+
+    .decoration1{
+        position: absolute;
+        top: 360px !important;
+        left: 110px !important;
+        width: 25%;
+    }
+    
+    .decoration2{
+        position: absolute;
+        right: 190px;
+        z-index: -2;
+        width: 15%;
+    }
 }
+
+
+
 
 /*===================================
 
@@ -626,4 +847,25 @@ TOOLBOX
 .span.ltrText{
     unicode-bidi: bidi-override;
     direction: rtl
+}
+
+.project-thumbnails{
+    width: 100%;
+    height: 400px;
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+
+.pink-area-container{
+    width: 50%;
+    height: 400px;
+    display: inline-flex;
+    padding: 0px 1rem;
+}
+
+.pink-area{
+    width: 100%;
+    border-radius: 65px;
+    background-color: #ef0060;
+    opacity: 0.2;
 }
