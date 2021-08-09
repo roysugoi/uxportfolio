@@ -107,7 +107,7 @@ h1{
     font-family: 'Karla', sans-serif;
     color: #383838;
     font-size: 50px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 h2{
@@ -134,8 +134,16 @@ h4{
     line-height: 25px;
 }
 
-.active{
+.active-pink{
     opacity: 1 !important;
+    color: #ef0060;
+    font-weight: 500;
+}
+
+.active-yellow{
+    opacity: 1 !important;
+    color: #efbf00;
+    font-weight: 500;
 }
 
 .navbar{
@@ -162,11 +170,11 @@ h4{
 
 .logo-item{
     margin-top: 1rem;
-    opacity: 0.65;
+    opacity: 1;
     font-family: 'Karla', sans-serif;
-    color: #0a253c;
+    color: #383838;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -190,8 +198,15 @@ h4{
 }
 
 
-.ribbon{
-    background: #0f3351;
+.ribbon-pink{
+    background: #ef0060;
+    height: 10px;
+    width: 10rem;
+    border-radius: 2px;
+}
+
+.ribbon-yellow{
+    background: #efbf00;
     height: 10px;
     width: 10rem;
     border-radius: 2px;
@@ -228,7 +243,7 @@ h4{
     display: inline-flex;
     vertical-align: middle;
     font-size: 1.5rem;
-    color: #b3b3b3;
+    color: #383838;
 }
 
 .no-link{
@@ -306,8 +321,8 @@ h4{
     height: 50px;
     cursor: pointer;
     border-radius: 2px;
-    filter: contrast(0);
     transition: 0.3s;
+    filter: contrast(0);
 }
 
 .smicon:hover{
@@ -337,13 +352,11 @@ h4{
     display: inline-flex;
     vertical-align: middle;
     height: 2rem;
-    opacity: 0.3;
 }
 
 .tapicon{
     display: none;
     height: 3rem;
-    opacity: 0.3;
 }
 
 .contact{
@@ -438,8 +451,7 @@ h4{
     .tapicon{
         display: inline-flex;
         vertical-align: middle;
-        height: 3rem;
-        opacity: 0.3;        
+        height: 3rem;      
     }
 
     .project{
@@ -508,7 +520,7 @@ h4{
         display: inline-flex;
         vertical-align: middle;
         font-size: 2.5rem;
-        color: #b3b3b3;
+        color: #383838;
     }
 
     .aboutme{
