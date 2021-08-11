@@ -68,7 +68,8 @@ SCROLLBAR
 }
 
 ::-webkit-scrollbar-thumb{
-  background: #0f3351;
+  background: #f5f6f7;
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
@@ -132,6 +133,11 @@ h4{
     margin: 0px;
     padding: 0px;
     line-height: 25px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
 }
 
 .active-pink{
@@ -425,6 +431,22 @@ h4{
     filter: contrast(1);
 }
 
+.smicon-nav{
+    height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.3s;
+    filter: contrast(0);
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.smicon-nav:hover{
+    height: 30px;
+    transition: 0.3s;
+    filter: contrast(1);
+}
+
 .smicon-xl{
     width: 25%;
     cursor: pointer;
@@ -435,11 +457,6 @@ h4{
 .smicon-xl:hover{
     transition: 0.3s;
     filter: contrast(1);
-}
-
-.footer-container{
-    height: 0px;
-    background-color: transparent;
 }
 
 .clickicon{
@@ -800,6 +817,10 @@ PHONE
 
     .nav-items{
         width: 100%;   
+    }
+
+    .smicon-nav{
+        display: none;
     }
 
     .slogan{
