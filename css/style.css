@@ -152,6 +152,12 @@ h4{
     font-weight: 500;
 }
 
+.active-turq{
+    opacity: 1 !important;
+    color: #03aba8;
+    font-weight: 500;
+}
+
 .navbar{
     width: 100%;
     position: sticky;
@@ -163,7 +169,7 @@ h4{
 }
 
 .navbar-container{
-    padding: 2rem;
+    padding: 1rem;
     float: right;
     display: flex;
     align-content: center;
@@ -290,7 +296,7 @@ h4{
 }
 
 .project.green{
-    background-color: #cdeeee;
+    background-color: #d3edee;
 }
 
 .project.grey{
@@ -307,7 +313,7 @@ h4{
 }
 
 .project-logo{
-    width: 40%;
+    width: 55%;
     position: relative;
     padding-left: 2rem;
     padding-top: 2rem;
@@ -320,8 +326,36 @@ h4{
 
 .project-pic{
     width: auto;
-    height: 340px;
     position: absolute;
+}
+
+.project-pic.Aa{
+    transform: translate(115px, 15px);
+    max-height: 269px;
+}
+
+.project-pic.Ab{
+    transform: translateX(200px);
+    max-height: 284px;
+}
+
+.project-pic.Ba{
+    transform: translate(-6px, 40px);
+    height: 244px;
+}
+
+.project-open{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.project-result{
+    width: 30%;
+    padding: 5rem;
+}
+
+.project-desc{
+    width: 70%;
 }
 
 .aboutme{
@@ -359,6 +393,7 @@ h4{
 
 .aboutme-photo-xl{
     width: 100%;
+    border-radius: 5px;
 }
 
 .aboutme-photo-m{
@@ -459,6 +494,7 @@ PHONE
     margin: 0;
     position: relative;
     padding: 3rem;
+    display: inline-flex;
 }
 
 .phone-container {
@@ -469,7 +505,7 @@ PHONE
     transform: translate3d(-50%,0,0);
         /* Transform with the translate3d attribute allows img's to be renderized without a 1px pop at the end, making it smoother, and the first digit centers in the X axys the content. */
     animation-name: phone-container;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
         /* Forward makes the animation stop wherever it is and not reset to the original position */
     }
@@ -479,7 +515,7 @@ PHONE
     padding-bottom: 0px;
     opacity: 0.0;
     }
-    5% {
+    0% {
     padding-bottom: 0px;
     opacity: 0.0;
     }
@@ -494,15 +530,15 @@ PHONE
 }
 
     .unlock {
-    position: absolute;
-    max-height: 700px;
-    left: 50%;
-    -webkit-transform: translate3d(-50%,0,0);
-    transform: translate3d(-50%,0,0);
-        /* Transform with the translate3d attribute allows img's to be renderized without a 1px pop at the end, making it smoother, and the first digit centers in the X axys the content. */
-    animation-name: unlock;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+        position: absolute;
+        height: 700px;
+        left: 50%;
+        -webkit-transform: translate3d(-50%,0,0);
+        transform: translate3d(-50%,0,0);
+            /* Transform with the translate3d attribute allows img's to be renderized without a 1px pop at the end, making it smoother, and the first digit centers in the X axys the content. */
+        animation-name: unlock;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
         /* Forward makes the animation stop wherever it is and not reset to the original position */
     }
 
@@ -511,23 +547,36 @@ PHONE
     padding-bottom: 0px;
     opacity: 0.0;
     }
-    35% {
+    10% {
     padding-bottom: 0px;
     opacity: 0.0;
     }  
-    50% {
+    20% {
     padding-bottom: 0px;
-    opacity: 1.0;
+    opacity: 0.7;
     }
-    75% {
+    60% {
     padding-bottom: 0px;
-    opacity: 1.0;
-    width: 80%;
+    opacity: 0.7;
+    }
+    65% {
+    padding-bottom: 0px;
+    opacity: 0.0;
     }
     100% {
     padding-bottom: 0px;
     opacity: 0.0;
     }
+}
+
+.scr0 {
+    position: absolute;
+    height: 700px;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+    z-index: -3;
+        /* Transform with the translate3d attribute allows img's to be renderized without a 1px pop at the end, making it smoother, and the first digit centers in the X axys the content. */
 }
 
 .scr1 {
@@ -538,7 +587,7 @@ PHONE
     transform: translate3d(-50%,0,0);
         /* Transform with the translate3d attribute allows img's to be renderized without a 1px pop at the end, making it smoother, and the first digit centers in the X axys the content. */
     animation-name: scr1;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
         /* Forward makes the animation stop wherever it is and not reset to the original position */
     }
@@ -562,67 +611,37 @@ PHONE
     }
 }
 
-.decoration1{
-    position: absolute;
-    top: 360px;
-    left: 80px;
-    z-index: -2;
-    width: 25%;
-    opacity: 0.7;
-    animation-name: deco1;
-    animation-duration: 3s;
-    }
 
-    @keyframes deco1 {
-    0% {
-        opacity: 0;
-        transform: scale(1.05);
-        transform: translate3d(-10px, 22px);
-        transform: rotate(191deg);
-    }
-    33% {
-        transform: scale(1.15);
-        transform: translate3d(5, 5px);
-    }  
-    66% {
-        transform: scale(0.65);
-        transform: translate3d(-1px, -7px);
-    }
-    100% {
-        transform: scale(1.00);
-        transform: translate3d(0, 0px);
-    }
-}
-
-.decoration2{
+.decoration{
     position: absolute;
-    top: 260px;
-    right: 120px;
+    top: 45px;
+    left: 50px;
     z-index: -2;
-    width: 15%;
-    opacity: 0.5;
-    
+    opacity: 0.9;
+    z-index: -9999;
     animation-name: deco2;
-    animation-duration: 3s;
+    animation-duration: 2s;
+    width: 355px;
+    transform: rotate(-15deg);
     }
 
     @keyframes deco2 {
     0% {
         opacity: 0;
-        transform: scale(1.05);
-        transform: translate3d(-10px, 22px);
-        transform: rotate(191deg);
+        width: 200px;
+        transform: translate3d(0px, 100px, 0px);
+        transform: rotate(200deg);
     }
-    33% {
+    25% {
+        opacity: 0.0;
         transform: scale(1.15);
-        transform: translate3d(5, 5px);
     }  
-    66% {
+    50% {
         transform: scale(0.65);
-        transform: translate3d(-1px, -7px);
     }
     100% {
-        transform: scale(1.00);
+        width: 355px;
+    transform: rotate(-15deg);
         transform: translate3d(0, 0px);
     }
 }
@@ -657,6 +676,16 @@ PHONE
     .aboutme-text{
         width: 100%;
         float: left;
+    }
+
+    .project-result{
+        width: 100%;
+        padding: 0rem;
+        text-align: center;
+    }
+    
+    .project-desc{
+        width: 100%;
     }
 }
 
@@ -701,7 +730,7 @@ PHONE
         cursor: pointer;
     }
 
-    .project-block {
+    .project-block{
         transition: 0.3s;
         height: 500px;
         width: 50%;
@@ -709,6 +738,28 @@ PHONE
         display: inline-flex;
         margin-bottom: 5rem;
     }
+
+    .project-pic.Aa{
+        transform: translate(80px, 22px);
+        max-height: 269px;
+    }
+
+    .project-pic.Ab{
+        transform: translate(169px, 7px);
+        max-height: 284px;
+    }
+
+    .project-pic.Ba{
+        transform: translate(-25px, 56px);
+        height: 235px;
+    }
+
+    .project-pic.Za{
+        transform: translate(-25px, 56px);
+        height: 235px;
+    }
+
+
 
     .navbar-container{
         padding: 0px;
@@ -741,8 +792,8 @@ PHONE
     }
 
     .nav-item-container-project{
-        width: 33%;
-        line-height: 3rem;  
+        width: 45%;
+        line-height: 3rem; 
     }
 
 
@@ -867,20 +918,6 @@ PHONE
         font-size: 0px;
         line-height: 0px;
         padding-left: 0rem;
-    }
-
-    .decoration1{
-        position: absolute;
-        top: 360px !important;
-        left: 110px !important;
-        width: 25%;
-    }
-    
-    .decoration2{
-        position: absolute;
-        right: 190px;
-        z-index: -2;
-        width: 15%;
     }
 }
 
