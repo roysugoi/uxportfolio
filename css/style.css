@@ -642,8 +642,6 @@ PHONE
     @keyframes deco2 {
     0% {
         opacity: 0;
-        width: 200px;
-        transform: translate3d(0px, 100px, 0px);
         transform: rotate(200deg);
     }
     25% {
@@ -651,11 +649,11 @@ PHONE
         transform: scale(1.15);
     }  
     50% {
-        transform: scale(0.65);
+        transform: scale(0.4);
     }
     100% {
         width: 355px;
-    transform: rotate(-15deg);
+        transform: rotate(-15deg);
         transform: translate3d(0, 0px);
     }
 }
@@ -789,10 +787,6 @@ PHONE
     .navbar{
         height: 120px;
         display: block;
-    }
-
-    .logo{
-        display: none;
     }
 
     .navbar{
