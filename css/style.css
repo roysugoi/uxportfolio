@@ -241,6 +241,7 @@ h4{
     height: 5px;
     width: 10rem;
     border-radius: 2px;
+    opacity: 0.4;
 }
 
 .ribbon-blue{
@@ -248,6 +249,7 @@ h4{
     height: 5px;
     width: 10rem;
     border-radius: 2px;
+    opacity: 0.4;
 }
 
 .ribbon-turq{
@@ -263,6 +265,7 @@ h4{
     height: 5px;
     width: 5rem;
     border-radius: 2px;
+    opacity: 0.4;
 }
 
 .ribbon-turq-short{
@@ -924,6 +927,7 @@ PHONE
         height: 5px;
         width: 10rem;
         border-radius: 2px;
+        opacity: 0.4;
     }
     
     .ribbon-turq-short{
