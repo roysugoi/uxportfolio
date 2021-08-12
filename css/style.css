@@ -1052,3 +1052,19 @@ TOOLBOX
     margin: 0px;
     padding: 0px;
 }
+
+.green-square{
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+    background-color: #00aba8;
+    position: relative;
+}
+
+.blue-square{
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+    background-color: #4291ce;
+    position: relative;
+}
