@@ -375,7 +375,7 @@ h4{
 .aboutme{
     width: 100%;
     padding: 0px;
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-bottom: 5rem;
 }
 
@@ -385,7 +385,8 @@ h4{
 }
 
 .aboutmetitle{
-    padding: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     text-align: justify;
 }
 
