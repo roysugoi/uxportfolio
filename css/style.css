@@ -285,8 +285,6 @@ h4{
     max-width: 100%;
     margin: 0px;
     margin-bottom: 0rem;
-    font-size: 0px;
-    line-height: 0px;
     text-align: center;
     padding: 0rem;
     margin-bottom: 4rem;
@@ -325,7 +323,7 @@ h4{
 }
 
 .project-desc{
-    padding: 5rem;
+    padding: 3rem;
     width: 100%;
     margin-bottom: 0rem;
     cursor: auto;
@@ -333,8 +331,8 @@ h4{
     text-align: left;
 }
 
-.project-desc-date{
-    margin-bottom: 4rem;
+.project-desc-item{
+    margin-bottom: 3rem;
 }
 
 .project{
@@ -756,7 +754,7 @@ PHONE
     }
     
     .project-desc{
-        padding: 3rem;
+        padding: 2rem;
         width: 100%;
         margin-bottom: 0rem;
     }
