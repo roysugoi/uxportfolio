@@ -249,19 +249,19 @@ h4{
     border-radius: 2px;
 }
 
-.ribbon-blue-short{
-    background: #00bfef;
-    height: 5px;
-    width: 5rem;
-    border-radius: 2px;
-}
-
 .ribbon-turq{
     background: #03aba8;
     height: 5px;
     width: 10rem;
     border-radius: 2px;
     opacity: 0.4;
+}
+
+.ribbon-blue-short{
+    background: #00bfef;
+    height: 5px;
+    width: 5rem;
+    border-radius: 2px;
 }
 
 .ribbon-turq-short{
@@ -685,7 +685,6 @@ PHONE
 
     .aboutmetitle{
         padding: 0rem;
-        text-align: justify;
         margin-top: 5rem;
     }
 
@@ -707,6 +706,13 @@ PHONE
 }
 
 @media screen and (max-width: 1000px){
+
+    h2{
+        font-family: 'Karla', sans-serif;
+        color: #383838;
+        font-size: 30px;
+        font-weight: 300;
+    }
 
     .smicon{
         height: 50px;
@@ -761,7 +767,7 @@ PHONE
 
     .project-block{
         transition: 0.3s;
-        height: 500px;
+        height: auto;
         width: 100%;
         cursor: pointer;
         display: inline-flex;
@@ -825,6 +831,7 @@ PHONE
     }
 
     .gallery{
+        display: block;
         padding-left: 0rem;
         padding-right: 0rem;
     }
@@ -909,6 +916,21 @@ PHONE
         font-size: 0px;
         line-height: 0px;
         padding-left: 0rem;
+    }
+
+    .ribbon-blue-short{
+        background: #00bfef;
+        height: 5px;
+        width: 10rem;
+        border-radius: 2px;
+    }
+    
+    .ribbon-turq-short{
+        background: #03aba8;
+        height: 5px;
+        width: 10rem;
+        border-radius: 2px;
+        opacity: 0.4;
     }
 }
 
