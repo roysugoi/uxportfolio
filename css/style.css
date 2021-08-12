@@ -177,7 +177,8 @@ h4{
 }
 
 .navbar-container{
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     float: right;
     display: flex;
     align-content: center;
