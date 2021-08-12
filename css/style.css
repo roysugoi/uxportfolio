@@ -204,6 +204,15 @@ h4{
     margin: 2rem;
     width: 200px;
     opacity: 0.4;
+    font-size: 20px;
+}
+
+.project-open-name{
+    cursor: auto;
+    margin: 2rem;
+    width: 200px;
+    opacity: 0.4;
+    font-size: 20px;
 }
 
 .btn{
@@ -848,6 +857,10 @@ PHONE
 
 
     .nav-btn {
+        font-size: 3rem;
+    }
+
+    .project-open-name{
         font-size: 3rem;
     }
 
