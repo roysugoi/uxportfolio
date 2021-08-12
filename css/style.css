@@ -12,8 +12,10 @@ html{
     -o-animation: fadeIn linear 0.5s;
     -ms-animation: fadeIn linear 0.5s;
     overflow-x: hidden;
-    max-width: 1630px;
+    max-width: 1600px;
     margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
   
   @keyframes fadeIn{
@@ -216,8 +218,7 @@ h4{
 
 .slogan{
     width: 100%;
-    padding: 5rem;
-    margin-top: 2rem;
+    margin-top: 10rem;
     max-width: 100%;
 }
 
@@ -262,6 +263,8 @@ h4{
     font-size: 0px;
     line-height: 0px;
     text-align: center;
+    padding: 0rem;
+    margin-bottom: 4rem;
 }
 
 .gallery-info{
@@ -287,18 +290,19 @@ h4{
     width: 50%;
     cursor: pointer;
     display: inline-flex;   
-    margin-bottom: 5rem;
+    margin-bottom: 0rem;
 }
 
 .project-container{
-    padding: 2rem;
+    padding: 0rem;
     width: 100%;
+    margin-bottom: 0rem;
 }
 
 .project{
     width: 100%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 3px;
 }
 
 .project.green{
@@ -322,44 +326,6 @@ h4{
     max-height: 100%;
 }
 
-.project-pics{
-    padding: 2rem;
-    position: absolute;
-}
-
-.project-pic{
-    width: auto;
-    position: absolute;
-}
-
-.project-pic.Aa{
-    transform: translate(115px, 15px);
-    max-height: 269px;
-}
-
-.project-pic.Ab{
-    transform: translateX(200px);
-    max-height: 284px;
-}
-
-.project-pic.Ba{
-    transform: translate(-6px, 40px);
-    height: 244px;
-}
-
-.project-open{
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.project-result{
-    width: 30%;
-    padding: 5rem;
-}
-
-.project-desc{
-    width: 70%;
-}
 
 .aboutme{
     width: 100%;
@@ -374,12 +340,8 @@ h4{
 }
 
 .aboutmetitle{
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 3rem;
-    padding-bottom: 4rem;
+    padding: 4rem;
     text-align: justify;
-    text-justify: inter-word;
 }
 
 .aboutme-photo-container{
@@ -396,25 +358,18 @@ h4{
 
 .aboutme-photo-xl{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .aboutme-photo-m{
     display: none;
-    max-width: 100%;
+    width: 100%;
+    border-radius: 3px;
 }
 
 .aboutme-text{
-    width: 40%;
+    width: 50%;
     float: left;
-}
-
-.am-trigger1{
-    display: block;
-}
-
-.am-trigger2{
-    display: none;
 }
 
 .smicon{
@@ -439,11 +394,13 @@ h4{
     filter: contrast(0);
     display: inline-flex;
     vertical-align: middle;
+    opacity: 0.5;
 }
 
 .smicon-nav:hover{
     height: 30px;
     transition: 0.3s;
+    opacity: 1;
     filter: contrast(1);
 }
 
@@ -685,6 +642,12 @@ PHONE
         display: block;
     }
 
+    .aboutmetitle{
+        padding: 0rem;
+        text-align: justify;
+        margin-top: 5rem;
+    }
+
     .aboutme-text{
         width: 100%;
         float: left;
@@ -742,36 +705,20 @@ PHONE
         cursor: pointer;
     }
 
+    .project-container{
+        padding: 0rem;
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+
     .project-block{
         transition: 0.3s;
         height: 500px;
-        width: 50%;
+        width: 100%;
         cursor: pointer;
         display: inline-flex;
-        margin-bottom: 5rem;
+        margin-bottom: 0rem;
     }
-
-    .project-pic.Aa{
-        transform: translate(80px, 22px);
-        max-height: 269px;
-    }
-
-    .project-pic.Ab{
-        transform: translate(169px, 7px);
-        max-height: 284px;
-    }
-
-    .project-pic.Ba{
-        transform: translate(-25px, 56px);
-        height: 235px;
-    }
-
-    .project-pic.Za{
-        transform: translate(-25px, 56px);
-        height: 235px;
-    }
-
-
 
     .navbar-container{
         padding: 0px;
@@ -817,11 +764,11 @@ PHONE
         display: none;
     }
 
-    .slogan{
+    .slogan {
         width: 100%;
-        padding: 2rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        padding: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
         margin-top: 5rem;
     }
 
@@ -830,8 +777,8 @@ PHONE
     }
 
     .gallery{
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     .gallery-info-text{
@@ -867,27 +814,11 @@ PHONE
     .aboutme-text{
         width: 100%;
         float: left;
-    }
-
-    .aboutmetitle{
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        text-align: left;
-        text-justify: inter-word;
+        margin-top: 5rem;
     }
 
     .logo-item{
         display: none;
-    }
-
-    .am-trigger1{
-        display: none;
-    }
-
-    .am-trigger2{
-        display: block;
     }
 
     .smicon{
