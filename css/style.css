@@ -691,6 +691,22 @@ PHONE
     width: 200px;
 }
 
+.green-square{
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+    background-color: #00aba8;
+    position: relative;
+}
+
+.blue-square{
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+    background-color: #4291ce;
+    position: relative;
+}
+
 
 @media screen and (max-width: 1630px){
 
@@ -1018,6 +1034,22 @@ PHONE
     .project-open-logo{
         width: 300px;
     }
+
+    .green-square{
+        height: 25px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #00aba8;
+        position: relative;
+    }
+    
+    .blue-square{
+        height: 25px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #4291ce;
+        position: relative;
+    }
 }
 
 
@@ -1066,18 +1098,3 @@ TOOLBOX
     padding: 0px;
 }
 
-.green-square{
-    height: 12px;
-    width: 12px;
-    border-radius: 3px;
-    background-color: #00aba8;
-    position: relative;
-}
-
-.blue-square{
-    height: 12px;
-    width: 12px;
-    border-radius: 3px;
-    background-color: #4291ce;
-    position: relative;
-}
