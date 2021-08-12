@@ -368,7 +368,7 @@ h4{
 
 .project-logo{
     height: 100%;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 
@@ -661,6 +661,27 @@ PHONE
     }
 }
 
+.project-open{
+    margin-top: 5rem;
+    display: flex;
+}
+
+.project-result{
+    width: 50%;
+    padding: 0rem;
+    text-align: center;
+}
+
+.project-open-desc{
+    width: 30%;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.project-open-logo{
+    width: 200px;
+}
+
 
 @media screen and (max-width: 1630px){
 
@@ -697,16 +718,31 @@ PHONE
         width: 100%;
         float: left;
     }
-
-    .project-result{
-        width: 100%;
-        padding: 0rem;
-        text-align: center;
-    }
     
     .project-desc{
         width: 100%;
         background-color: #f3f3f3;
+    }
+
+    .project-open{
+        margin-top: 5rem;
+        display: flex;
+    }
+    
+    .project-result{
+        width: 50%;
+        padding: 0rem;
+        text-align: center;
+    }
+    
+    .project-open-desc{
+        width: 50%;
+        padding-top: 5rem;
+        padding-left: 5rem;
+    }
+    
+    .project-open-logo{
+        width: 200px;
     }
 }
 
@@ -941,6 +977,33 @@ PHONE
         width: 10rem;
         border-radius: 2px;
         opacity: 0.4;
+    }
+
+    .project-logo{
+        height: 415px;
+        max-width: auto;
+    }
+    
+
+    .project-open{
+        margin-top: 5rem;
+        display: block;
+    }
+    
+    .project-result{
+        width: 100%;
+        padding: 0rem;
+        text-align: center;
+    }
+    
+    .project-open-desc{
+        width: 100%;
+        padding-top: 5rem;
+        padding-left: 0rem;
+    }
+    
+    .project-open-logo{
+        width: 300px;
     }
 }
 
