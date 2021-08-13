@@ -344,7 +344,15 @@ h4{
     text-align: left;
 }
 
-.project-desc-item{
+.project-desc-item1{
+    margin-bottom: 3rem;
+}
+
+.project-desc-item2{
+    margin-bottom: 3rem;
+}
+
+.project-desc-item3{
     margin-bottom: 3rem;
 }
 
@@ -735,6 +743,11 @@ PHONE
     opacity: 0.6;
 }
 
+.more-icon{
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
 
 @media screen and (max-width: 1630px){
 
@@ -806,6 +819,11 @@ PHONE
         color: #383838;
         font-size: 40px;
         font-weight: 300;
+    }
+
+    .logo{
+        margin-right: 2rem;
+        display: none;
     }
 
     .smicon{
@@ -890,7 +908,7 @@ PHONE
 
 
     .nav-item-container{
-        width: 45%;
+        width: 50%;
         line-height: 3rem;
     }
 
@@ -909,7 +927,8 @@ PHONE
     }
 
     .nav-items{
-        width: 100%;   
+        width: 100%;
+        display: inline-flex;
     }
 
     .smicon-nav{
@@ -1078,6 +1097,30 @@ PHONE
         background-color: #4291ce;
         position: relative;
     }
+    
+    .more-button{
+       font-size: 35px;
+    }
+
+    .more-icon{
+        height: 30px;
+        margin-right: 0.5rem;
+    }
+
+    .project-desc-item1{
+        margin-bottom: 3rem;
+        display: none;
+    }
+    
+    .project-desc-item2{
+        margin-bottom: 3rem;
+        display: none;
+    }
+    
+    .project-desc-item3{
+        margin-bottom: 3rem;
+    }
+    
 }
 
 
