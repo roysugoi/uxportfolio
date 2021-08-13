@@ -707,6 +707,34 @@ PHONE
     position: relative;
 }
 
+.more-button{
+    position: absolute;
+    padding: 2rem;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    color: #00aba8;
+}
+
+.green:hover{
+    color: #00aba8;
+    opacity: 0.6;
+}
+
+.blue{
+    color: #4291ce;
+}
+
+.blue:hover{
+    color: #4291ce;
+    opacity: 0.6;
+}
+
 
 @media screen and (max-width: 1630px){
 
